@@ -42,7 +42,7 @@ jobs:
               "type": "${{ env.ENVIRONMENT_TYPE }}"
             }
             EOF
-     - uses: score-spec/setup-score@v2
+      - uses: score-spec/setup-score@v2
         with:
           file: score-humanitec
           version: ${{ env.SCORE_HUMANITEC_VERSION }}
