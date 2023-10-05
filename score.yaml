@@ -25,4 +25,4 @@ resources:
       path: /
       port: 80
   assets:
-    type: azure-blob
+    type: s3
